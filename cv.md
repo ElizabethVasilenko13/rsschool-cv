@@ -8,11 +8,13 @@
    * **Telegram:** [@vasilenkkko](https://t.me/vasilenkkko)
    * **Linkedin:** https://www.linkedin.com/in/elizabeth-vasilenko-9313a2211/
    * **GitHub:** https://github.com/ElizabethVasilenko13
+	 
 ***
 ### About me:
 Creative and enthusiast trainee frontend developer, seeking an entry-level position with
 company to use my skills in coding. I easily communicate with people and quickly grasp
 information.
+
 ***
 ### Skills and Proficiency:
   * HTML5, CSS3
@@ -28,6 +30,7 @@ information.
   * Figma
   * Adobe Photoshop, Zeplin
   * SublimeText3
+
 ***
 ### Code example:
 #### KATA from CODEWARS: 
@@ -52,6 +55,7 @@ function findOutlier(integers){
   * [Desktop Weather App (JavaScript)](https://github.com/ElizabethVasilenko13/myWeatherApp)
   * [Desktop Weather App (React)](https://github.com/ElizabethVasilenko13/weather-app-react)
   * [Desktop Dictionary App (React)](https://github.com/ElizabethVasilenko13/dictionary-app-react)
+
 ***
 ### Education:
   * **University:** National Aviation University | 2020 - Present, Computer Science major
@@ -61,6 +65,7 @@ function findOutlier(integers){
     * [SheCodes Responsive](https://www.shecodes.io/certificates/7338feda22b3019a5415ed2fb9290379)
     * [SheCodes React](https://www.shecodes.io/certificates/a6aa7c1c96d902c3d125e10d2e4586f6)
     * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
 ***
 ### Languages:
   * **English:** B1-B2, [Efset test result](https://www.efset.org/cert/KBn12w)
