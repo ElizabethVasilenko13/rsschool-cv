@@ -196,8 +196,8 @@ h3.profile__deskr {
 }
 
 .project-img:hover {
-		width: 90%;
-		transition: all 0.3s;
+	width: 90%;
+	transition: all 0.3s;
 }
 
 .project-title {
@@ -213,6 +213,37 @@ h3.profile__deskr {
 	background-color:  #eb6543bf;
 	border-radius: 0 0 20px 20px;
 	text-align: center;
+}
+
+footer {
+	background-color: var(--second-color);
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer > .footer-github > a {
+	display: block;
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+.footer > .footer-github > a:hover {
+	border-bottom: 2px solid var(--main-color);
+	
+}
+
+.rs-link img{
+	  width: 121px;
+	/* width: 121px;
+  height: 45px;
+  background-image: url("/assets/img/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat; */
 }
 
 
