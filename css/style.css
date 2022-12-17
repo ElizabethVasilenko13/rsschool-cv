@@ -160,12 +160,59 @@ h3.profile__deskr {
 	margin: 12px 0;
 }
 
+.aside-item {
+	list-style: circle;
+	margin-left: 20px;
+}
+
 .contact-link {
 	color: #F5F5F5;
 } 
 
 .main-section {
 	margin-bottom: 10px;
+}
+
+#education ul > li > a {
+	color: #F5F5F5;
+	text-decoration: underline;
+}
+
+#education .main-deskr {
+	margin-bottom: 14px;
+}
+
+.projects-block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.project-img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.project-img:hover {
+		width: 90%;
+		transition: all 0.3s;
+}
+
+.project-title {
+	font-weight: 300;
+}
+
+.project:first-child {
+	margin-right: 25px;
+}
+
+.project {
+	padding: 10px;
+	background-color:  #eb6543bf;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
 }
 
 

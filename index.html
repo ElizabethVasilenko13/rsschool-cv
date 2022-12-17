@@ -62,12 +62,12 @@
 										<i class="fa-brands fa-telegram contact-icon icon"></i>
 									</a>
 								</li>
-								<li class="aside-item">
+								<li class="contact-item">
 									<a href="https://www.linkedin.com/in/elizabeth-vasilenko-9313a2211/" target="_blank" class="contact-link">
 										<i class="fa-brands fa-github contact-icon icon"></i>
 									</a>
 								</li>
-								<li class="aside-item">
+								<li class="contact-item">
 									<a href="https://github.com/ElizabethVasilenko13" target="_blank" class="contact-link">
 										<i class="fa-brands fa-linkedin-in contact-icon icon"></i>
 									</a>
@@ -84,16 +84,33 @@
 								</ul>
 							</div>
 						</section>
-						<section id="languages" class="contacts ">
+						<section id="languages" class="languages">
 							<h2 class="main-header">Languages:</h2>
 							<ul class="aside-list">
-									<li>English - (B1\B2)</li>
-									<li>Ukrainian - native</li>
-									<li>Russian - fluent</li>
+									<li class="aside-item">English - (B1\B2)</li>
+									<li class="aside-item">Ukrainian - native</li>
+									<li class="aside-item">Russian - fluent</li>
 								</ul>
 						</section>
+						<section id="skills" class="skills">
+							<h2 class="main-header">Technical skills:</h2>
+							<ul class="aside-list">
+									<li class="aside-item">JavaScript </li>
+									<li class="aside-item">React (Basic)</li>
+									<li class="aside-item">Html/CSS</li>
+									<li class="aside-item">Bootstrap</li>
+									<li class="aside-item">Git</li>
+								</ul>
+							<h2 class="main-header">Environment/tools:</h2>
+							<ul class="aside-list">
+								<li class="aside-item">Visual Studio Code</li>
+								<li class="aside-item">Visual Ctudio</li>
+								<li class="aside-item">Figma</li>
+								<li class="aside-item">Adobe Photoshop, Zeplin</li>
+								<li class="aside-item">SublimeText3</li>
+							</ul>
+						</section>
 					</div>
-					
 				</aside>
 				<div class="main-content">
 					<div class="wrapper">
@@ -110,13 +127,66 @@
 							<div class="main-deskr">
 								National Aviation University | 2020 - Present 
 							</div>
+							<h2 class="main-header">Courses:</h2>
+							<ul class="aside-list">
+								<li class="aside-item">
+									<a href="https://www.shecodes.io/certificates/063d8b22390cd6261d9d70a46c3dbc9e" target="_blank">SheCodes Basics</a>
+								</li>
+								<li class="aside-item">
+									<a href="https://www.shecodes.io/certificates/93638b99f6cb09d3f80c101faeab187e" target="_blank">SheCodes Plus</a>
+								</li>
+								<li class="aside-item">
+									<a href="https://www.shecodes.io/certificates/7338feda22b3019a5415ed2fb9290379" target="_blank">SheCodes Responsive</a>
+								</li>
+								<li class="aside-item">
+									<a href="https://www.shecodes.io/certificates/a6aa7c1c96d902c3d125e10d2e4586f6" target="_blank">SheCodes React</a>
+								</li>
+								<li class="aside-item"> RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+							</ul>
 						</section>
+						<section id="projects" class="main-section">
+							<h2 class="main-header">Projects:</h2>
+							<div class="projects-block">
+								<div class="project">
+									<a href="https://dazzling-kleicha-4c37fa.netlify.app/" target="_blank" class="project-link">
+										<img src="./assets/img/weatherProject.png" alt="weatherProject" class="project-img">
+									</a>
+									<h4 class="project-title">Weather App</h4>
+									<div class="project-deskr">Weather Application (HTML, CSS, JS)</div>
+								</div>
+								<div class="project">
+									<a href="https://dazzling-kleicha-4c37fa.netlify.app/" target="_blank" class="project-link">
+										<img src="./assets/img/dictionaryReact.png" alt="weatherProject" class="project-img">
+									</a>
+									<h4 class="project-title">Weather App</h4>
+									<div class="project-deskr">Dictionary Application (HTML, CSS, JS, React)</div>
+								</div>
+							</div>
+						</section>
+						<section id="code" class="main-section">
+							<h2 class="main-header">Code example:</h2>
+							<div>You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.</div>
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">function findOutlier(integers){
+  	<span class="hljs-keyword" style="font-weight: 700;">let</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span> = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
+	<span class="hljs-keyword" style="font-weight: 700;">for</span> (<span class="hljs-keyword" style="font-weight: 700;">let</span> i = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>; i &lt; integers.length; i++) {
+		<span class="hljs-keyword" style="font-weight: 700;">if</span> (integers[i] % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> == <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
+			<span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span>++;
+		} 
+	}
+	<span class="hljs-keyword" style="font-weight: 700;">if</span> (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span> &gt; <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) {
+		<span class="hljs-keyword" style="font-weight: 700;">return</span> +integers.<span class="hljs-built_in" style="color: rgb(57, 115, 0);">filter</span>(el =&gt; el % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> != <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>).<span class="hljs-built_in" style="color: rgb(57, 115, 0);">join</span>('');
+	} <span class="hljs-keyword" style="font-weight: 700;">else</span> {
+		<span class="hljs-keyword" style="font-weight: 700;">return</span> +integers.<span class="hljs-built_in" style="color: rgb(57, 115, 0);">filter</span>(el =&gt; el % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> == <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>).<span class="hljs-built_in" style="color: rgb(57, 115, 0);">join</span>('');
+	}
+}</pre>
+						</section>
+					</div>
 				</div>
 			</div>
-		</div>
-			
 		</main>
-		<footer></footer>
+		<footer>
+			
+		</footer>
 	</div>
 </body>
 </html>
