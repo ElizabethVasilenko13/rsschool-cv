@@ -165,20 +165,14 @@
 						</section>
 						<section id="code" class="main-section">
 							<h2 class="main-header">Code example:</h2>
-							<div>You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.</div>
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">function findOutlier(integers){
-  	<span class="hljs-keyword" style="font-weight: 700;">let</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span> = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
-	<span class="hljs-keyword" style="font-weight: 700;">for</span> (<span class="hljs-keyword" style="font-weight: 700;">let</span> i = <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>; i &lt; integers.length; i++) {
-		<span class="hljs-keyword" style="font-weight: 700;">if</span> (integers[i] % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> == <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>) {
-			<span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span>++;
-		} 
-	}
-	<span class="hljs-keyword" style="font-weight: 700;">if</span> (<span class="hljs-built_in" style="color: rgb(57, 115, 0);">count</span> &gt; <span class="hljs-number" style="color: rgb(136, 0, 0);">1</span>) {
-		<span class="hljs-keyword" style="font-weight: 700;">return</span> +integers.<span class="hljs-built_in" style="color: rgb(57, 115, 0);">filter</span>(el =&gt; el % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> != <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>).<span class="hljs-built_in" style="color: rgb(57, 115, 0);">join</span>('');
-	} <span class="hljs-keyword" style="font-weight: 700;">else</span> {
-		<span class="hljs-keyword" style="font-weight: 700;">return</span> +integers.<span class="hljs-built_in" style="color: rgb(57, 115, 0);">filter</span>(el =&gt; el % <span class="hljs-number" style="color: rgb(136, 0, 0);">2</span> == <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>).<span class="hljs-built_in" style="color: rgb(57, 115, 0);">join</span>('');
-	}
-}</pre>
+							<div class="code-example">
+<div class="javascript"><ol><li class="li1"><div class="de1"><span class="kw2">function</span> minMax<span class="br0">&#40;</span>arr<span class="br0">&#41;</span><span class="br0">&#123;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; let newArr <span class="sy0">=</span> <span class="br0">&#91;</span><span class="br0">&#93;</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; newArr.<span class="me1">push</span><span class="br0">&#40;</span>Math.<span class="me1">min</span><span class="br0">&#40;</span>...<span class="me1">arr</span><span class="br0">&#41;</span><span class="sy0">,</span> Math.<span class="me1">max</span><span class="br0">&#40;</span>...<span class="me1">arr</span><span class="br0">&#41;</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1">&nbsp; <span class="kw1">return</span> newArr<span class="sy0">;</span></div></li>
+<li class="li1"><div class="de1"><span class="br0">&#125;</span></div></li>
+</ol></div>
+							</div>
 						</section>
 					</div>
 				</div>
