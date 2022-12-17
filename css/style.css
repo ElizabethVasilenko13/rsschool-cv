@@ -1,0 +1,335 @@
+:root {
+	--main-color: #F5F5F5;;
+	--second-color: #EB6643;
+	--background-color: #252525;
+}
+
+html, 
+body {
+	height: 100%;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #060606;
+	color: var(--main-color);
+	font-size: 16px;
+  font-weight: 400;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6 {
+	font-family: 'Righteous', cursive;
+	margin: 0;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1000px;
+	min-height: 100%;
+	background: var(--background-color);
+}
+
+.nav {
+	padding: 10px;
+	background-color: var(--second-color);
+}
+
+.menu-list {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-item {
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+
+.menu-link {
+	color: var(--main-color);
+}
+
+.menu-link:hover {
+	color: var(--background-color);
+	text-shadow: 0px 4px 4px rgba(239, 235, 227, 0.5);
+	transition: all 0.3s;
+	font-size: 18px;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile img {
+	width: 30%;
+}
+
+.profile__info {
+	width: 70%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h3.profile__deskr {
+	color: var(--second-color);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 24px;
+}
+
+.cont {
+	display: flex;
+	width: 100%;
+	overflow:hidden;
+}
+
+.aside-panel {
+	width: 30%;
+}
+
+.main-content {
+	width: 70%;
+	background-color: #343434;
+}
+
+.wrapper {
+	padding: 20px;
+}
+
+.contact-list {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0;
+}
+
+.contact-icon {
+	font-size: 40px;
+}
+
+.icon {
+	color: var(--second-color);
+}
+
+.contact-icon:hover {
+	font-size: 45px;
+	transition: all 0.3s;
+	color: #be5338;
+}
+
+.fa-location-dot {
+	margin-right: 5px;
+}
+
+main {
+	flex: 1 1 auto;
+}
+.main-header {
+	font-weight: 100;
+}
+
+.aside-list {
+	margin: 12px 0;
+}
+
+.aside-item {
+	list-style: circle;
+	margin-left: 20px;
+}
+
+.contact-link {
+	color: #F5F5F5;
+} 
+
+.main-section {
+	margin-bottom: 10px;
+}
+
+#education ul > li > a {
+	color: #F5F5F5;
+	text-decoration: underline;
+}
+
+#education .main-deskr {
+	margin-bottom: 14px;
+}
+
+.code-example {
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #fff;
+	color: #060606;
+}
+.projects-block {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.project-img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.project-img:hover {
+	width: 90%;
+	transition: all 0.3s;
+}
+
+.project-title {
+	font-weight: 300;
+}
+
+.project:first-child {
+	margin-right: 25px;
+}
+
+.project {
+	padding: 10px;
+	background-color:  #eb6543bf;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+}
+
+footer {
+	background-color: var(--second-color);
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer > .footer-github > a {
+	display: block;
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+.footer > .footer-github > a:hover {
+	border-bottom: 2px solid var(--main-color);
+}
+
+.rs-link img{
+	  width: 121px;
+}
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	h3.profile__deskr {
+		font-size: 18px;
+	}
+
+	.main-header {
+		font-size: 20px;
+	}
+  
+	.profile img , 
+	.aside-panel {
+		width: 45%;
+	}
+
+	.profile__info, 
+	.main-content {
+		width: 55%;
+	}
+
+	.menu-item {
+		font-size: 14px;
+	}
+
+	.menu-list {
+		justify-content: space-between;
+ 	}
+
+	.code-example {
+		text-align: left;
+	}
+
+	.projects-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.project {
+		margin-bottom: 19px;
+	}
+	
+	.project:first-child {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 540px) {
+
+	.nav {
+		display: none;
+	}
+
+	.aside-item {
+		list-style: none;
+		margin: 0;
+	}
+
+	.profile {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.profile img , .profile__info {
+		width: 100%;
+	}
+
+	.cont {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.aside-panel {
+		width: 100%;
+	}
+
+	.main-content {
+		width: 100%;
+	}
+}
+
