@@ -4,12 +4,16 @@
 	--background-color: #252525;
 }
 
+html, 
+body {
+	height: 100%;
+}
+
 html {
   scroll-behavior: smooth; 
 }
 
 body {
-	min-width: 320px;
 	font-family: 'Roboto', sans-serif;
 	background-color: #060606;
 	color: var(--main-color);
@@ -28,7 +32,8 @@ h6 {
 	margin: 0;
 }
 
-ul {
+ul,
+ol {
 	padding: 0;
 	margin: 0;
 }
@@ -46,13 +51,9 @@ a {
 	flex-direction: column;
 	margin: auto;
 	max-width: 1000px;
-	min-height: 100vh;
+	min-height: 100%;
 	background: var(--background-color);
 }
-
-/* .wrapper {
-	max-width: 900px;
-} */
 
 .nav {
 	padding: 10px;
@@ -85,7 +86,6 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* border-bottom: 1px solid #EB6643; */
 }
 
 .profile img {
@@ -152,6 +152,9 @@ h3.profile__deskr {
 	margin-right: 5px;
 }
 
+main {
+	flex: 1 1 auto;
+}
 .main-header {
 	font-weight: 100;
 }
@@ -184,7 +187,7 @@ h3.profile__deskr {
 
 .code-example {
 	border-radius: 20px;
-	padding: 10px;
+	padding: 20px;
 	background-color: #fff;
 	color: #060606;
 }
@@ -240,16 +243,10 @@ footer {
 
 .footer > .footer-github > a:hover {
 	border-bottom: 2px solid var(--main-color);
-	
 }
 
 .rs-link img{
 	  width: 121px;
-	/* width: 121px;
-  height: 45px;
-  background-image: url("/assets/img/rs_school_js.svg");
-  background-size: contain;
-  background-repeat: no-repeat; */
 }
 
 @media (max-width: 800px) {
@@ -265,11 +262,13 @@ footer {
 		font-size: 20px;
 	}
   
-	.profile img , .aside-panel {
+	.profile img , 
+	.aside-panel {
 		width: 45%;
 	}
 
-	.profile__info, .main-content {
+	.profile__info, 
+	.main-content {
 		width: 55%;
 	}
 
@@ -280,6 +279,10 @@ footer {
 	.menu-list {
 		justify-content: space-between;
  	}
+
+	.code-example {
+		text-align: left;
+	}
 
 	.projects-block {
 		display: flex;
@@ -315,18 +318,18 @@ footer {
 	.profile img , .profile__info {
 		width: 100%;
 	}
+
 	.cont {
 		flex-direction: column;
 		text-align: center;
 	}
+
 	.aside-panel {
 		width: 100%;
 	}
+
 	.main-content {
 		width: 100%;
 	}
-	/* .profile__info {
-		width: 100%;
-	} */
 }
 
