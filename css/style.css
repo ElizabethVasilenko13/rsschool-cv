@@ -119,8 +119,6 @@ h3.profile__deskr {
 	width: 30%;
 }
 
-
-
 .main-content {
 	width: 70%;
 	background-color: #343434;
@@ -130,7 +128,7 @@ h3.profile__deskr {
 	padding: 20px;
 }
 
-.aside-list {
+.contact-list {
 	display: flex;
 	justify-content: space-around;
 	margin: 10px 0;
@@ -154,16 +152,20 @@ h3.profile__deskr {
 	margin-right: 5px;
 }
 
-.aside-header {
+.main-header {
 	font-weight: 300;
 }
 
-.contact-list {
+.aside-list {
 	margin: 12px 0;
 }
 
-.aside-link {
+.contact-link {
 	color: #F5F5F5;
+} 
+
+.main-section {
+	margin-bottom: 10px;
 }
 
 
