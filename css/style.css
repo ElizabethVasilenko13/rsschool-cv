@@ -1,6 +1,7 @@
 :root {
 	--main-color: #F5F5F5;;
-	--second-color: #774CFE;
+	--second-color: #EB6643;
+	--background-color: #252525;
 }
 
 html {
@@ -17,23 +18,36 @@ body {
 	line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6 {
+	font-family: 'Righteous', cursive;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
 	max-width: 1000px;
 	min-height: 100vh;
-	box-shadow: 3px 3px 50px 1px rgb(117 76 254 / 50%);
-	background:#252525;
+	background: var(--background-color);
 }
 
-.header {
+/* .wrapper {
+	max-width: 900px;
+} */
+
+.nav {
 	padding: 5px;
+	background-color: var(--second-color);
 }
 
 .menu-list {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
@@ -49,8 +63,36 @@ body {
 }
 
 .menu-link:hover {
-	color: var(--second-color);
-	text-shadow: 0px 4px 4px rgb(117 76 254 / 50%);
+	color: var(--background-color);
+	text-shadow: 0px 4px 4px rgba(239, 235, 227, 0.5);
 	transition: all 0.3s;
 	font-size: 18px;
 }
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border-bottom: 1px solid #EB6643; */
+}
+
+.profile img {
+	height: 280px;
+	width: 280px;
+}
+
+.profile__info {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h3.profile__deskr {
+	color: var(--second-color);
+	font-weight: 300;
+	text-align: center;
+}
+
+
