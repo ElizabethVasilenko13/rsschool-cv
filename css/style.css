@@ -191,6 +191,7 @@ main {
 	background-color: #fff;
 	color: #060606;
 }
+
 .projects-block {
 	display: flex;
 	justify-content: space-between;
@@ -229,19 +230,23 @@ footer {
 	align-items: center;
 }
 
+.footer-item {
+	margin: 10px 0;
+}
+
 .footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.footer > .footer-github > a {
+.footer-link {
 	display: block;
 	text-decoration: none;
 	color: var(--main-color);
 }
 
-.footer > .footer-github > a:hover {
+.footer-link:hover {
 	border-bottom: 2px solid var(--main-color);
 }
 
@@ -331,5 +336,10 @@ footer {
 	.main-content {
 		width: 100%;
 	}
+
+	.footer {
+		flex-direction: column;
+	}
+
 }
 
